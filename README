@@ -1,0 +1,57 @@
+VIDEO UNIVERSE WEBSITE
+
+This site was designed as the front-end component of a web application designed for my
+local video store. While it doesn't necessarily align with their current branding, I
+thought it would be fun to lean into the "universe" aspect of their name and give it
+a fun space theme.
+
+/* ---------------------------*/
+/* Technical Specifications   */
+/* ---------------------------*/
+
+I used WebStorm to develop this project. I'm very new to front-end technologies, and while
+I don't believe it's my forte, the visual aspects of a webpage are fascinating to me. I found
+a tutorial video from a web designer whose work I really like -- it turned out to be more of
+an intermediate-level tutorial where he created a lot of utility classes and custom elements
+to assist in the creation of multiple pages. I was drawn to this approach, where you spend a
+decent amount of time setting up the specific style of your elements, so that when you start
+setting up your actual page you don't get as hung up on the styling of each individual element
+(he used the phrase "plug & play" which I felt was very apt).
+
+This tutorial was very helpful in multiple ways - I learned a lot about accessibility issues
+in web design, which is something that is important to me. For example, he made a point to have
+every element picked up by a screen-reader for the visually impaired. I also learned about rems
+& ems, which not only have great aesthetic value but also provide the visually impaired with the
+ability to adjust the contents instead of hard-coding them with pixels.
+
+All that said, I didn't quite have time to finish the tutorial videos and instead turned my focus
+toward using the utility classes I had made and seeing how much of my pages I could get done. While
+I feel they provided me with a solid basis for starting my project, I wish I'd had time to finish
+the series, because I ended up using a lot more in-line styling for individual elements than I
+would've liked. It quickly became a massive Frankenstein's monster of messy and unorganized code,
+which I will happily go back and refactor once the timeline isn't so pressing.
+
+/* ---------------------------*/
+/* Website Description        */
+/* ---------------------------*/
+
+Again, my website is a "launching pad" for a local business that I love -- a movie rental store
+called "Video Universe." I am a devoted customer, and I felt that their existing webpage was very
+outdated and does not convey the magic of the business. Allow me to walk you through the idea behind
+each page:
+
+1. Home - I wanted this page to be a fun, dynamic place where the user can quickly and easily
+understand what the business is about. Love for movies is the focus here, and while I love this place
+for its wide variety of quirky and hard-to-find movies, I thought it would be a good idea to have some
+cards that contain new releases that are available for more mainstream appeal.
+
+2. Explore - This page is central to the idea that I'm building out for my capstone -- I want this
+webapp to inspire people to explore all that the film world has to offer. The interactive element on
+this page makes exploring movie genres more fun by randomly generating a movie suggestion based on the
+genre selected by the user. Eventually, this app will include a "Wishlist" feature for users -- a place
+where they can save all of the movies that they've found through the explore page and then find those
+movies in-store the next time they visit Video Universe.
+
+3. About Us - I wanted this page to stand out from other business' "about us" pages by highlighting the
+kind of dedication and passion for movies that goes into operating a business that has been rendered almost
+completely obsolete.

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Red+Hat+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+          rel="stylesheet">
+
+    <!-- Our custom CSS -->
+    <link rel="stylesheet" href="index.css">
+    <title>Explore</title>
+</head>
+<body>
+<header class="primary-header flex">
+    <div style="width: 75px; object-fit: scale-down;"><img src="https://lh3.googleusercontent.com/eZMYcIMayCBUNpflqPtb2kHH2nliftGktZBvucsOheOLcRjqKVkY2pN6trlb1hBO96xQYl1Hj6zjrjF_KzHYuuRc2cStCHRSIAZ16LabGIF-pBxBvpfN0-2Q7aiHZBF68VHuDqMjukhtDTr50iOonDULLFD7Gdr7bE-4RBiy8vgJ3J1cy6L_xdbUkh-SoxGpPaR49fSeGMhkvi52Ia76MUQgEu10h1-DYhJeruPdMAQ-xBjToUf3PnUSc1zgvEsb2PFMRVG50hSno21VJ2sc5C8beZOyrCJR88_hq5do1bva8zfJ6A6tQnoQ9vyhJuDhtdqI5lsWVflGzpVu01c824VLX68yMqzd6pWH5f39TXYF32GHbvF1y1BhkUND0ymNwODV68MP_RkNNd0Mf9CiPGU6aBDngqq4ceoZkSOKUfu7tUv1OVeVNiy0obwJDPO6f66BZAkipc0Uym8q3ylIodgrMZdTJQHxjUUTazuvfGUpX46xlyTc3Uin7tMCj7Rh6bkx2CRQ5PkIPSdHOflMC-oOYm-TWOi-q7xSajvSqobBPLNBRbysg_d73snTIeNEia4tpa05Hywk3cwGanoLd73tiVHr3_dABzXSzwDCBaw9qNN9-8TgNjNOHM5YcyRHhycEdD9w6v3i-xI3c_rZSn-E-CwTjBVTlkBo0Y1OwBEZsmPkCCPzPSh4l5qjwNVQOiRLK6p4GI8pAiLvvd25pZtTyML6BGblWZuCfyzGXzWEMH12m4P68MdL-duArA=w705-h880-no?authuser=0"></div>
+    <nav style="margin: auto">
+        <ul class="primary-navigation underline-indicators flex">
+            <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html">Home</a></li>
+            <li class="active"><a class="ff-sans-cond uppercase text-white letter-spacing-2"
+                                  href="explore.html">Explore</a></li>
+            <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="aboutus.html">About Us</a></li>
+            <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="login.html">Login/Signup</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="container">
+<div id="big-button" class="large-button uppercase ff-sans-cond fs-600 text-dark bg-white" style="margin: 4rem" onclick="showDiv()">Not sure what<br>to watch?<br>Click me</div>
+<div id="small-buttons" style="display: none">
+    <a href="https://www.imdb.com/search/title/?genres=drama&explore=title_type,genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=f1cf7b98-03fb-4a83-95f3-d833fdba0471&pf_rd_r=GBRQX3PECKEAYENRBRTX&pf_rd_s=center-3&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_pr3_i_1" id="drama" class="large-button uppercase ff-sans-cond fs-600 text-dark" style="margin: 1rem">drama</a>
+    <a href="https://www.imdb.com/search/title/?genres=comedy&explore=title_type,genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=3396781f-d87f-4fac-8694-c56ce6f490fe&pf_rd_r=71ZX509D8TPTXM7XKQZE&pf_rd_s=center-1&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_pr1_i_1" id="comedy" class="large-button uppercase ff-sans-cond fs-500 text-dark" style="margin: 1rem">comedy</a>
+    <a href="https://www.rottentomatoes.com/top/bestofrt/top_100_classics_movies/" id="classic" class="large-button uppercase ff-sans-cond fs-500 text-dark" style="margin: 1rem">classics</a>
+    <a href="https://www.imdb.com/search/title/?genres=sci-fi&explore=title_type,genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=3396781f-d87f-4fac-8694-c56ce6f490fe&pf_rd_r=GBRQX3PECKEAYENRBRTX&pf_rd_s=center-1&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_pr1_i_2" id="sci-fi" class="large-button uppercase ff-sans-cond fs-600 text-dark" style="margin: 1rem">sci-fi</a>
+    <a href="#" id="kids" class="large-button uppercase ff-sans-cond fs-600 text-dark" style="margin: 1rem">kids</a>
+    <a href="https://www.imdb.com/search/title/?genres=horror&explore=title_type,genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=3396781f-d87f-4fac-8694-c56ce6f490fe&pf_rd_r=GBRQX3PECKEAYENRBRTX&pf_rd_s=center-1&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_pr1_i_3" id="horror" class="large-button uppercase ff-sans-cond fs-500 text-dark" style="margin: 1rem">horror</a>
+    <a href="https://www.imdb.com/search/title/?genres=thriller&title_type=feature&explore=genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=facfbd0c-6f3d-4c05-9348-22eebd58852e&pf_rd_r=GBRQX3PECKEAYENRBRTX&pf_rd_s=center-6&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_mvpop_22" id="thriller" class="large-button uppercase ff-sans-cond fs-500 text-dark" style="margin: 1rem">thriller</a>
+    <a href="https://www.imdb.com/search/title/?genres=romance&explore=title_type,genres&pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=e0da8c98-35e8-4ebd-8e86-e7d39c92730c&pf_rd_r=GBRQX3PECKEAYENRBRTX&pf_rd_s=center-2&pf_rd_t=15051&pf_rd_i=genre&ref_=ft_gnr_pr2_i_1" id="romance" class="large-button uppercase ff-sans-cond fs-500 text-dark" style="margin: 1rem">romance</a>
+</div>
+</div>
+</body>
+</html>
