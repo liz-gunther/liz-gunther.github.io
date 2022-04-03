@@ -5,6 +5,8 @@ local video store. While it doesn't necessarily align with their current brandin
 thought it would be fun to lean into the "universe" aspect of their name and give it
 a fun space theme.
 
+This page is currently deployed at liz-gunther.github.io/index
+
 /* ---------------------------*/
 /* Technical Specifications   */
 /* ---------------------------*/
@@ -31,6 +33,9 @@ the series, because I ended up using a lot more in-line styling for individual e
 would've liked. It quickly became a massive Frankenstein's monster of messy and unorganized code,
 which I will happily go back and refactor once the timeline isn't so pressing.
 
+I also used some Bootstrap elements for my login page, and the Bootstrap grid system for other pages
+as well.
+
 /* ---------------------------*/
 /* Website Description        */
 /* ---------------------------*/
@@ -53,5 +58,9 @@ where they can save all of the movies that they've found through the explore pag
 movies in-store the next time they visit Video Universe.
 
 3. About Us - I wanted this page to stand out from other business' "about us" pages by highlighting the
-kind of dedication and passion for movies that goes into operating a business that has been rendered almost
-completely obsolete.
+kind of dedication and passion for movies that goes into operating this kind of business. I included
+a Google Maps API to provide location details for the store.
+
+4. Login/Signup - Fairly self-explanatory. I used various regexp validation expressions on the HTML side
+to check each line of input from the user. I also have Javascript validation functions as event listeners,
+which assist in assuring that all of the relevant information is gathered from the user as they sign up.
