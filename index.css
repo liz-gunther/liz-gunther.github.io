@@ -80,19 +80,6 @@ select {
 /* Utility Classes            */
 /* ---------------------------*/
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
 .flex {
     display: flex;
     gap: var(--gap, 1rem);
@@ -105,7 +92,7 @@ select {
 .flow > > *:where(:not(:first-child)) {
     margin-top: var(--flow-space, 1rem);
 }
-.container {
+.c-container {
     padding-inline: 1em;
     margin-inline: auto;
     max-width: 100rem;
@@ -318,6 +305,7 @@ input.btn {
 /* Homepage Category Boxes    */
 /* ---------------------------*/
 .categories .itemBox {
+    background-size: cover;
     float: none;
     justify-content: left;
     vertical-align: top;
@@ -328,13 +316,12 @@ input.btn {
     padding: 2%;
     margin: 2rem;
 }
-
 .categories .itemBox.hide {
     display: none;
 }
 
 .categories .itemBox img {
-    opacity: 50%;
+    opacity: 40%;
     background-color: #1f1e20;
     border-radius: 25px;
     border-width: 0px;
